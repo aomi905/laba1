@@ -53,6 +53,6 @@ public class Cocktail extends Food{
         if (this.drink.equals("sprite") && this.fruit.equals("lime")) {
             return this.calories - 80;
         } else
-            return 0;
+            return 100;
     }
 }
