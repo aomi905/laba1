@@ -47,7 +47,7 @@ public class Cocktail extends Food{
     }
 
     public Integer calculateCalories() {
-        if (this.drink.equals("milk") && this.fruit.equals("banana")) {
+        if (this.drink.equals("milk") && this.fruit.equals("kiwi")) {
             return this.calories;
         }
         if (this.drink.equals("sprite") && this.fruit.equals("lime")) {
